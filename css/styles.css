@@ -203,6 +203,18 @@ position: relative;
     text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+    .section-general {
+        padding: 112px 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .section-general {
+            padding: 112px 0;
+    }
+}
+
 .section-general-title {
     color: var(--color-page);
     font-size: 56px;
@@ -211,6 +223,16 @@ position: relative;
     letter-spacing: 0.02em;
     margin: 0 auto;
     max-width: 496px;
+}
+
+@media screen and (max-width: 768px) {
+    .section-general-title {
+        font-size: 36px;
+        line-height: 1.11;
+        text-transform: capitalize;
+        font-weight: 700;
+        width: 320px;
+    }
 }
 
 .section-general-button {
@@ -230,6 +252,18 @@ position: relative;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (max-width: 768px) {
+    .section-general-button {
+        margin-top: 72px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .section-general-button {
+            margin-top: 36px;
+    }
 }
 
 .section-general-button:hover,
@@ -676,6 +710,12 @@ position: relative;
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .footer-page {
+        padding: 96px 0;
+    }
+}
+
 .footer {
     display: flex;
 }
@@ -690,7 +730,9 @@ position: relative;
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .footer {
-
+        flex-wrap: wrap;
+        padding-left: 100px;
+        gap: 72px 24px;
     }
 }
 
@@ -706,7 +748,8 @@ position: relative;
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .footer-link-logo {
-
+        margin-right: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -718,6 +761,12 @@ position: relative;
     .footer-list-icon {
         margin-right: 0;
         margin-bottom: 72px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .footer-list-icon {
+        margin-right: 0;
     }
 }
 
@@ -756,6 +805,12 @@ position: relative;
 @media screen and (max-width: 768px) {
     .footer-subtitle {
         margin-bottom: 72px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .footer-subtitle {
+        margin-bottom: 0;
     }
 }
 
