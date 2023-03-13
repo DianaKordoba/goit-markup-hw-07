@@ -83,6 +83,12 @@ ul {
     align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+    .header-container {
+        display: none;
+    }
+}
+
 .header-navigation {
     display: flex;
     align-items: center;
@@ -98,6 +104,13 @@ ul {
     font-size: 18px;
     font-weight: 800;
     letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        padding-top: 24px;
+        padding-bottom: 22px;
+    }
 }
 
 .logo-two {
@@ -171,6 +184,27 @@ position: relative;
 
 .header-link.current:hover::after {
     transform: scaleX(0.5);
+}
+
+.header-container-mobile {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    .header-container-mobile {
+        display: none;
+    }
+}
+
+.header-burger {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header-burger-icon {
+    stroke: var(--color-page-text);
 }
 
 .addresslink {
