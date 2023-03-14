@@ -30,13 +30,75 @@
                     </ul>
                 </nav>
                 <address>
-                    <ul class="headerlist">
+                    <ul class="headerlist-address">
                         <li><a class="addresslink" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                         <li><a class="addresslink" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                     </ul>
                 </address>
             </div>
             <div class="header-container-mobile">
+                <a class="logo" href="./index.html">Web<span class="logo-two">Studio</span></a>
+                <button class="header-burger js-open-menu" type="button">
+                    <svg class="header-burger-icon" width="32px" height="22px">
+                        <use href="./images/icon.svg#icon-charm_menu-hamburger">
+                        </use>
+                    </svg>
+                </button>
+            </div>
+            <div class="mobile-menu js-menu-container">
+                <button class="modal-close js-close-menu" type="button">
+                    <svg width="8px" height="8px">
+                        <use href="./images/icon.svg#icon-close-black-18dp">
+                        </use>
+                    </svg>
+                </button>
+                <nav class="header-navigation">
+                    <ul class="headerlist-mobile">
+                        <li><a class="header-link-mobile" href="./index.html">Studio</a> </li>
+                        <li><a class="header-link-mobile" href="./portfolio.html">Portfolio</a> </li>
+                        <li><a class="header-link-mobile" href="">Contacts</a> </li>
+                    </ul>
+                </nav>
+                <address>
+                    <ul class="headerlist-address-mobile">
+                        <li><a class="addresslink-mobile" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                        <li><a class="addresslink-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    </ul>
+                </address>
+                <ul class="social-list mobile">
+                    <li class="social-item">
+                        <a class="social-link" href="">
+                            <svg class="icon-team" width="16px" height="16px">
+                                <use href="./images/icon.svg#icon-instagram-2">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link" href="">
+                            <svg class="icon-team" width="16px" height="16px">
+                                <use href="./images/icon.svg#icon-twitter-1">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link" href="">
+                            <svg class="icon-team" width="16px" height="16px">
+                                <use href="./images/icon.svg#icon-facebook-1">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link" href="">
+                            <svg class="icon-team" width="16px" height="16px">
+                                <use href="./images/icon.svg#icon-linkedin-1">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </header>
@@ -55,7 +117,9 @@
                 <ul class="items-app">
                     <li class="list-app">
                         <div class="overlay-img-app">
-                            <img src="./images/displaywithapp.jpg" alt="Banking App" width="360">
+                            <img class="overlay-img"
+                                srcset="./images/displaywithapp.jpg 1x, ./images/displaywithapp@2x.jpg 2x"
+                                src="./images/displaywithapp.jpg" alt="Banking App" width="360">
                             <div class="overlay-app">
                                 <p class="overlay-text">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -71,7 +135,8 @@
                     </li>
                     <li class="list-app">
                         <div class="overlay-img-app">
-                            <img src="./images/scanqrcod.jpg" alt="Payment" width="360">
+                            <img class="overlay-img" srcset="./images/scanqrcod.jpg 1x, ./images/scanqrcod@2x.jpg 2x"
+                                src="./images/scanqrcod.jpg" alt="Payment" width="360">
                             <div class="overlay-app">
                                 <p class="overlay-text">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -87,8 +152,9 @@
                     </li>
                     <li class="list-app">
                         <div class="overlay-img-app">
-                            <img src="./images/computerandtelephone.jpg" alt="App on computer and telephone"
-                                width="360">
+                            <img class="overlay-img"
+                                srcset="./images/computerandtelephone.jpg 1x, ./images/computerandtelephone@2x.jpg 2x"
+                                src="./images/computerandtelephone.jpg" alt="App on computer and telephone" width="360">
                             <div class="overlay-app">
                                 <p class="overlay-text">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -104,7 +170,8 @@
                     </li>
                     <li class="list-app">
                         <div class="overlay-img-app">
-                            <img src="./images/car.jpg" alt="Car and telephone" width="360">
+                            <img class="overlay-img" srcset="./images/car.jpg 1x, ./images/car@2x.jpg 2x"
+                                src="./images/car.jpg" alt="Car and telephone" width="360">
                             <div class="overlay-app">
                                 <p class="overlay-text">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -120,7 +187,9 @@
                     </li>
                     <li class="list-app">
                         <div class="overlay-img-app">
-                            <img src="./images/screenimages.jpg" alt="Images on telephone" width="360">
+                            <img class="overlay-img"
+                                srcset="./images/screenimages.jpg 1x, ./images/screenimages@2x.jpg 2x"
+                                src="./images/screenimages.jpg" alt="Images on telephone" width="360">
                             <div class="overlay-app">
                                 <p class="overlay-text">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -136,7 +205,8 @@
                     </li>
                     <li class="list-app">
                         <div class="overlay-img-app">
-                            <img src="./images/girl.jpg" alt="Girl with telephone" width="360">
+                            <img class="overlay-img" srcset="./images/girl.jpg 1x, ./images/girl@2x.jpg 2x"
+                                src="./images/girl.jpg" alt="Girl with telephone" width="360">
                             <div class="overlay-app">
                                 <p class="overlay-text">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -152,7 +222,9 @@
                     </li>
                     <li class="list-app">
                         <div class="overlay-img-app">
-                            <img src="./images/instagrampages.jpg" alt="Content in instagram" width="360">
+                            <img class="overlay-img"
+                                srcset="./images/instagrampages.jpg 1x, ./images/instagrampages@2x.jpg 2x"
+                                src="./images/instagrampages.jpg" alt="Content in instagram" width="360">
                             <div class="overlay-app">
                                 <p class="overlay-text">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -168,7 +240,8 @@
                     </li>
                     <li class="list-app">
                         <div class="overlay-img-app">
-                            <img src="./images/vegetables.jpg" alt="Bag with vegetables" width="360">
+                            <img class="overlay-img" srcset="./images/vegetables.jpg 1x, ./images/vegetables@2x.jpg 2x"
+                                src="./images/vegetables.jpg" alt="Bag with vegetables" width="360">
                             <div class="overlay-app">
                                 <p class="overlay-text">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -184,7 +257,8 @@
                     </li>
                     <li class="list-app">
                         <div class="overlay-img-app">
-                            <img src="./images/coffee.jpg" alt="Coffee" width="360">
+                            <img class="overlay-img" srcset="/images/coffee.jpg 1x, /images/coffee@2x.jpg 2x"
+                                src="./images/coffee.jpg" alt="Coffee" width="360">
                             <div class="overlay-app">
                                 <p class="overlay-text">
                                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -261,6 +335,13 @@
             </div>
         </div>
     </footer>
+
+    <script defer src="./mobile-menu.js"></script>
+    <script src="./modal.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>

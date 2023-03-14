@@ -38,12 +38,67 @@
             </div>
             <div class="header-container-mobile">
                 <a class="logo" href="./index.html">Web<span class="logo-two">Studio</span></a>
-                <button class="header-burger" type="button">
+                <button class="header-burger js-open-menu" type="button">
                     <svg class="header-burger-icon" width="32px" height="22px">
                         <use href="./images/icon.svg#icon-charm_menu-hamburger">
                         </use>
                     </svg>
                 </button>
+            </div>
+            <div class="mobile-menu js-menu-container">
+                <button class="modal-close js-close-menu" type="button">
+                    <svg width="8px" height="8px">
+                        <use href="./images/icon.svg#icon-close-black-18dp">
+                        </use>
+                    </svg>
+                </button>
+                <nav class="header-navigation">
+                    <ul class="headerlist-mobile">
+                        <li><a class="header-link-mobile" href="./index.html">Studio</a> </li>
+                        <li><a class="header-link-mobile" href="./portfolio.html">Portfolio</a> </li>
+                        <li><a class="header-link-mobile" href="">Contacts</a> </li>
+                    </ul>
+                </nav>
+                <address>
+                    <ul class="headerlist-address-mobile">
+                        <li><a class="addresslink-mobile" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                        <li><a class="addresslink-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    </ul>
+                </address>
+                <ul class="social-list mobile">
+                    <li class="social-item">
+                        <a class="social-link" href="">
+                            <svg class="icon-team" width="16px" height="16px">
+                                <use href="./images/icon.svg#icon-instagram-2">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link" href="">
+                            <svg class="icon-team" width="16px" height="16px">
+                                <use href="./images/icon.svg#icon-twitter-1">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link" href="">
+                            <svg class="icon-team" width="16px" height="16px">
+                                <use href="./images/icon.svg#icon-facebook-1">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link" href="">
+                            <svg class="icon-team" width="16px" height="16px">
+                                <use href="./images/icon.svg#icon-linkedin-1">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </header>
@@ -113,13 +168,16 @@
                 <h2 class="title-project">What are we doing</h2>
                 <ul class="list-project">
                     <li>
-                        <img class="img-project" src="./images/computer.jpg" alt="computer" width="360">
+                        <img class="img-project" srcset="./images/computer.jpg 1x, ./images/computer@2x.jpg 2x"
+                            src="./images/computer.jpg" alt="computer" width="360">
                     </li>
                     <li>
-                        <img class="img-project" src="./images/screen.jpg" alt="screens" width="360">
+                        <img class="img-project" srcset="./images/screen.jpg 1x, ./images/screen@2x.jpg 2x"
+                            src="./images/screen.jpg" alt="screens" width="360">
                     </li>
                     <li>
-                        <img class="img-project" src="./images/telephone.jpg" alt="telephone" width="360">
+                        <img class="img-project" srcset="./images/telephone.jpg 1x, ./images/telephone@2x.jpg 2x"
+                            src="./images/telephone.jpg" alt="telephone" width="360">
                     </li>
                 </ul>
             </div>
@@ -129,7 +187,8 @@
                 <h2 class="title-team">Our Team</h2>
                 <ul class="list-team">
                     <li class="list-team-iteam">
-                        <img src="./images/mark.jpg" alt="Mark Guerrero" width="264">
+                        <img src="./images/mark.jpg" srcset="./images/mark.jpg 1x, ./images/mark@2x.jpg 2x"
+                            alt="Mark Guerrero" width="264">
                         <div class="items-team">
                             <h3 class="title-team-list">Mark Guerrero</h3>
                             <p class="subtitle-team">Product Designer</p>
@@ -170,7 +229,8 @@
                         </ul>
                     </li>
                     <li class="list-team-iteam">
-                        <img src="./images/tom.jpg" alt="Tom Ford" width="264">
+                        <img src="./images/tom.jpg" srcset="./images/tom.jpg 1x, ./images/tom@2x.jpg 2x" alt="Tom Ford"
+                            width="264">
                         <div class="items-team">
                             <h3 class="title-team-list">Tom Ford</h3>
                             <p class="subtitle-team">Frontend Developer</p>
@@ -211,7 +271,8 @@
                         </ul>
                     </li>
                     <li class="list-team-iteam">
-                        <img src="./images/camila.jpg" alt="Camila Garcia" width="264">
+                        <img src="./images/camila.jpg" srcset="./images/camila.jpg 1x, ./images/camila@2x.jpg 2x"
+                            alt="Camila Garcia" width="264">
                         <div class="items-team">
                             <h3 class="title-team-list">Camila Garcia</h3>
                             <p class="subtitle-team">Marketing</p>
@@ -252,7 +313,8 @@
                         </ul>
                     </li>
                     <li class="list-team-iteam">
-                        <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264">
+                        <img src="./images/daniel.jpg" srcset="./images/daniel.jpg 1x, ./images/daniel@2x.jpg 2x"
+                            alt="Daniel Wilson" width="264">
                         <div class="items-team">
                             <h3 class="title-team-list">Daniel Wilson</h3>
                             <p class="subtitle-team">UI Designer</p>
